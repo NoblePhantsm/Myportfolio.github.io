@@ -1,0 +1,98 @@
+body {color:green;background-image: url(Image/galaxy/dfdfd.jpg);background-repeat: no-repeat;background-size: 130%;background-position: top;font-family:"Times New Roman", "Georgia",serif;box-sizing:border-box;display: block;background-color: black;margin-left: 20%;margin-right: 20%;}
+h1 {text-align: center;background-image: url(Image/galaxy/stars-3840x2160-4k-6347.jpg);margin-left: 30%;margin-right: 30%;}
+#mercury {margin-bottom: 7%;}
+#venus {margin-bottom: 7%;}
+#earth {margin-bottom: 7%;}
+#mars {margin-bottom: 7%;}
+#jupiter {margin-bottom: 6%;}
+#saturn {margin-bottom: 5%;}
+#uranus {margin-bottom: 7%;}
+#neptune {margin-bottom: 8%;}
+#pluto {margin-bottom: 8%;}
+nav {text-align: center;text-decoration: none;}
+#nyeyam {text-align: center;text-decoration: none;}
+nav a {text-decoration: none;font-size: 100%;display: inline;padding:30px;border:1px;border-style:solid;}
+a {text-decoration:none;}
+#canis {float: left;}
+#cephei {float:left;}
+#mcephei {float:left;}
+#betel {float:left;}
+#antares {float:left;}
+#rigel {float: left;}
+#aldebaran {float: left;}
+#acturus {float: left;}
+#pollux {float: left;}
+#sirius {float:left;}
+#Canis {border: 3px;border-color:green;border-style: solid;margin-left: 40%;}
+h2 {text-align: center;}
+#saggi {border: 3px;border-color: red;border-style:outset;margin-left: 40%;}
+#large {border: 3px;border-color: blueviolet;border-style: outset;margin-left: 40%;}
+#milk  {border: 3px;border-color: white;border-style: outset;margin-left: 40%;}
+#small  {border: 3px;border-color: yellow;border-style: outset;margin-left: 40%;}
+#draco  {border: 3px;border-color: red;border-style: outset;margin-left: 40%;}
+#nyeyam {background-color: black;margin-top: 15%}
+#petmalu {background-color: black;margin: 10px;background-image: url(Image/giphy.gif);background-repeat:repeat-y;background-size: 9%;color: aqua;padding-bottom: 10%;}
+video {float: right;margin: 1em}
+audio {margin: 2em;margin-left:35%;margin-top: 5%;width:200px;display: block;}
+p {margin-left: 25%;}
+#han {background-image: url(Image/giphy.gif);background-repeat:repeat-y;background-size: 9%;color:yellow;background-color: black;}
+#abcd {float:right;font-size:10px}
+#mineto {margin-left: 10%;}
+#hon {color: red;}
+ a:link, a:visited {
+    text-align: center;
+    text-decoration: none;
+     }
+   table {margin: 1em;border: 2px;border-style: solid;border-color:greenyellow;border-collapse: collapse}
+th ,td {border-style:solid;border-color: greenyellow;}
+#itsumo {margin-left: 10%;}
+footer {text-align: center;color: brown;margin-top: 2%;}
+#iwtsu {float: left;margin-left: 62%;margin-bottom: -10%;}
+#nyupuk {margin-left: 50%;}
+
+label {float: left;text-align: right;padding-right: 1em;width: 8em;display: block;}
+h2 {margin-left: 1.7em;}
+#mySubmit {margin-left: 19%;margin-top: 1px;}
+
+
+@media only screen and (max-width: 1024px){ 
+body {padding: 0;background-color:black;background-image: none;}
+#wrapper {width: auto;min-width: 0;margin: 0;}
+h1 {margin: 0;font-size: 1.8em;line-height: 200%;}
+nav {float: none;padding: 0;width: auto;}
+nav a {padding: 1em;font-size: 1em;}
+nav ul {padding: 0;text-align: center;margin: 0;}
+    nav li {display:inline-block;padding: 0.5em;}
+main {font-size: 90%;margin: 0;padding-left: 2em;}
+footer {margin: 0;}
+    p {font-size: 90%;}
+    a {padding: 6px}
+}
+
+
+@media only screen and (max-width:768px){
+    body {padding: 0;background-color:black;background-image: none;margin-right: 1%;text-align: left;}
+h1 {line-height: 120%;font-size: 1.5em;}
+nav a {display: block;padding: 0.2em;font-size: 1em;border-bottom: 1px;border-color: #330000;text-align: left;}
+main {padding-left: 1em;}
+    #category {text-shadow: none;}
+#mobile {display:inline;}
+#dekstop {display:none;}
+nav li {border: 1px;border-style: solid;}
+#nayu {margin-top:15%;background-color: black;}
+    audio {display: none;}
+    video {width: 150px;height: 100px;padding: 5px}
+    #milk {width:150px;height: 100px;margin-left: -1%}
+    #Canis {width:150px;height: 100px;margin-left: -1%}
+    #saggi {width:150px;height: 100px;margin-left: -1%}
+    #large {width:150px;height: 100px;margin-left: -1%}
+    #small {width:150px;height: 100px;margin-left: -1%}
+    #draco {width:150px;height: 100px;margin-left: -1%}
+    #nyeyam {margin: 3em}
+    th {display: none}
+    a {padding: 1em;text-align: left;}
+    
+    h2 {text-align: center;}
+
+}
+    

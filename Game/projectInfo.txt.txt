@@ -1,0 +1,8 @@
+Van Aldwin Mercado
+
+
+1:It was a running game where there are monster that you need to kill and tower that you need to dodge in order to keep going  adn you only have 1 hp;
+2:Letter R for slash , Arrow up for jump , arrow down for slide,arrow Right for advancing right side and left for left side;
+3:The bugs are the blood at point 5000 , the play button where it keep adding the speed if get clicked many times , same as the slash,jump and slide animation.
+4:I didnt use any outside library for this program 
+5:I didnt use any code outside.

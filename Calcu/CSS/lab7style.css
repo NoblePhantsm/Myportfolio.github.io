@@ -1,0 +1,35 @@
+#buttons{
+margin-left: 140px;
+margin-top:37px;
+position:absolute;
+}
+legend{
+    background-color: gray;
+}
+#text {
+    background-color: white;
+}
+fieldset{
+   background-color: skyblue;
+    width: 250px;
+
+}
+#color{
+    width: 250px;
+}
+#ope{
+    margin-left: 35px;
+}
+#n1,#n2{
+    width: 50px;
+    margin-left: 5px;
+}
+label{
+    float: left;
+}
+p{
+    height: 50px;
+    width: 150px;
+    margin-left: 20px;
+    background-color: white;
+}

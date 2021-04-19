@@ -1,0 +1,457 @@
+@charset "utf-8";
+@font-face{
+  src:url(static/WorkSans-LightItalic.ttf);
+  font-family: nos;
+}
+@font-face{
+  src:url(bladesingerlaserital.ttf);
+  font-family: cool;
+}
+body{
+    background-image: url('image/0fbfd37a13842721d183fd2f14ecb860.jpg');
+    background-position-x: -150px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* The sidebar menu */
+.sidenav {
+    border-radius: 0 15px 30px;
+    border-right: 5px solid white;
+    height: 100%; 
+    width: 160px;
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    overflow-x: hidden; 
+    padding-top: 20px;
+
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color:white;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  /*profile*/
+  img.sticky {
+    top: 0;
+    float: left;
+    width: 50%;
+    border-color: rgba(209, 19, 51, 0.69);
+    margin-right: 2em;
+    margin-top:3%;
+    margin-left: 2%;
+  }
+  #name
+  {
+    font-size: 40px;
+    font-family:cool;
+    color: rgba(209, 19, 51, 0.69)
+  }
+  #we
+  {
+    margin-right: 10%;
+  }
+  #ih2{
+    margin-right: 10%;
+  }
+  #ih2>p{
+    border-radius: 15px 30px;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding-top: 20px;
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+    background-color:  rgba(17, 13, 13, 0.747);
+ 
+  }
+  #ih2>h1{
+    color: rgba(240, 6, 45, 0.884);
+  }
+  #ih2>ul{
+    color: white;
+    border-radius: 15px 30px;
+    border-top: 10px solid white;
+    font-size: 30px;
+    background-color:  rgba(17, 13, 13, 0.747);
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  hr.a{
+    border: 1px solid red;
+  }
+  #prof{
+      padding-left: 15%;
+  }
+ 
+  #ih2>h2{
+   
+    color:blue;
+  }
+  #ih2>h2
+  {
+    color:blue;
+    font-size: 30px;
+    margin-left: 20px;
+  }
+  
+  /*Timeline css*/
+ #timelines{
+   margin-left: 15%;
+ }
+  .sidenav a:hover {
+    color:blue;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    background-color: gray;
+    font-family: Helvetica, sans-serif;
+  }
+  
+  .timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  h2
+  {
+    font-family: nos;
+      color: white;
+  }
+  p{
+    font-size: 20px;
+    font-family: nos;
+      color: rgba(240, 6, 45, 0.884);
+  }
+  h3{
+    font-family: nos;
+      color: gray;
+  }
+ 
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color:  rgba(44, 42, 42, 0.64);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  
+
+  .container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+  
+  .container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color:black;
+    border: 4px solid white;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+ 
+  .left {
+    left: 0;
+  }
+  
+
+  .right {
+    left: 50%;
+  }
+  
+ 
+  .left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent red;
+  }
+  
+
+  .right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent red transparent transparent;
+  }
+  
+  .right::after {
+    left: -16px;
+  }
+  
+ 
+  .content {
+    padding: 20px 30px;
+    background-color:  rgba(17, 13, 13, 0.747);
+    position: relative;
+    border-radius: 15px 30px;
+    border-top: 5px solid white;
+  }
+
+  /*contact*/
+ 
+.icon-bar {
+    position: fixed;
+    top: 44%;
+    margin-left: 48%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  
+  .icon-bar a {
+    display: inline;
+    text-align: center;
+    padding: 30px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  
+  .icon-bar a:hover {
+    background-color:green;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  
+  .google {
+    background: #992314;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+ 
+  #you
+  {
+    
+    border-top: 10px solid red;
+    border-bottom: 5px solid white;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    border-radius: 15px 20px;
+      margin-top: 10%;
+      text-align: center;
+      color: red;
+      background-color:rgba(0, 0, 0, 0.10);
+      width: 500px;
+      height: 300px;
+      margin-left: 40%;
+      padding-top: 15px;
+  }
+  #you>header
+  {
+
+      font-size: 50px;
+  }
+
+  
+  
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+ 
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+
+  .column {
+    float: left;
+    width: 25%;
+  }
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+/*Home*/
+#welcome
+
+  {
+    border-radius: 15px 30px;
+    width: 90.5%;
+    border-top: 5px solid white;
+    border-right: 2.5px solid white;
+    border-bottom: 2.5px solid white;
+    color:rgba(223, 8, 47, 0.69);
+    text-align: center;
+    margin-left:  10%;
+    margin-top: 12%;
+    background: rgba(2, 0, 0, 0.801);
+  font-weight: bold;
+}
+/*Learn*/
+#learn{
+
+  background-color: rgba(0, 0, 0, 0.6);
+  padding-left: 15%;
+
+  
+  
+}
+#learn h1{
+  text-align: center;
+  color: rgba(240, 6, 45, 0.884);
+}
+#learn h3{
+  font-size: 40px;
+  color:whitesmoke;
+}
+
+  footer {
+    position: fixed;
+    margin-left: 150px;
+    padding-right: 250px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(2, 0, 0, 0.801);
+    border-radius: 15px 30px;
+    border-top: 5px solid rgba(172, 33, 56, 0.69) ;
+    color: white;
+    text-align: center;
+  
+  }
+  #a{
+    
+    border-radius: 10px 40px;
+    background-image: url("image/angular.png");
+    background-position: center;
+    background-size: contain;
+    line-height: 120px;
+    width: 30%;
+    margin-left: 30%;
+  
+  }
+ #b{
+  border-radius: 10px 40px;
+  background-image: url("image/nodejs-45adbe594d.png");
+  background-position: center;
+  background-size: contain;
+  line-height: 120px;
+  width: 30%;
+  margin-left: 30%;
+
+ }
+ #c{
+  border-radius: 10px 40px;
+  background-image: url("image/php-1-logo-png-transparent.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  line-height: 120px;
+  width: 30%;
+  margin-left: 30%;
+ }
+ #d{
+  border-radius: 10px 40px;
+  background-image: url("image/715px-C_Sharp_logo.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  line-height:120px;
+  width: 30%;
+  margin-left: 30%;
+  
+ }
+ #e{
+  border-radius: 10px 40px;
+  background-image: url("image/Java_logo_icon.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  line-height: 120px;
+  width: 30%;
+  margin-left: 30%;
+  
+ }
+ #ac{
+   text-align: center;
+   position: absolute;
+   background-color: rgb(14, 9, 9, 0.884);
+   width: 30%;
+   margin-left: 7.9%;
+   border-right: 15px solid blue;
+   border-top:5px solid white;
+   border-left:5px solid black;
+   border-bottom: 5px solid black;
+   
+ }  
+ #ae{
+  text-align: center;
+   float: right;
+   background-color:rgb(14, 9, 9, 0.884);
+   width: 40%;
+   margin-right: 15%;
+   padding-bottom:11%;
+   border-left: 15px solid red; 
+   border-top: 5px solid white;
+   border-right:5px solid black;
+   border-bottom: 5px solid black;
+  
+  
+ }
+  
+  
+  footer>a{
+      text-decoration: none ;
+  }

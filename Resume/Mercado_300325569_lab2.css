@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+body {
+    margin:auto;
+    padding-top: 5px;
+	width: 80%;
+    max-width: 1020px;
+    font-weight:bold;
+    font-size: larger;
+
+   
+}
+
+ul{
+    padding-left: 30px;
+    line-height: 30px;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ol>li{
+    list-style-type: upper-roman;
+}
+dl{
+    padding-left: 30px;
+    line-height: 30px;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+dl>dt{
+    font-size: 25px;
+}
+
+article{
+   
+    width: 80%;
+    margin-left: 10%;
+    background-color:teal;
+    padding-bottom: 8px;
+    
+}
+body>section
+{
+    margin: 0;
+	padding: 2px;
+    width: 80%;
+    margin-left: 10%;
+
+}
+
+
+
+html {
+   background-color:saddlebrown ;
+
+}
+body{
+    background-image: url("pexels-photo-326333.jpeg");
+   font-family:'Palatino Linotype','Book Antiqua',Palatino,serif;
+}
+#pform{
+    background-image: url("white-panel.jpeg");
+    margin-top: 30px;
+    width: 79.4%;
+    margin-left: 10%;
+     border: 3px solid green;
+
+}
+p {
+   margin:0px;
+   padding-top: 5px;
+   padding-right: 25px;
+   padding-left: 25px;
+   padding-bottom: 25px;
+}
+body>p
+{
+font-size: 1.1em;
+text-align: center;
+}
+address{
+       font-size: 0.9em;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+
+h1{font-size: 3em;
+   font-weight: normal;
+   margin: 0px;
+   padding-top: 20px;
+   padding-right: 0px;
+   padding-bottom: 10px;
+    padding-left: 30px;
+   
+}
+
+
+#educ
+{
+    margin-top: 10px;
+    border: 2px dashed red;
+   background-color:yellowgreen;
+    margin-left: 5px;
+    margin-right: 5px;
+  
+}
+#educ>h1
+{
+  
+   font-family: Grunge,'Times New Roman',Times,serif;
+}
+#job
+{
+    margin-top: 10px;
+    border: 2px dashed yellow;
+   background-color:royalblue;
+   margin-left: 5px;
+   margin-right: 5px;
+   
+ 
+}
+#pl#jobay3>h1
+{
+    
+   font-family:Impact,Charcoal,sans-serif;
+}
+#ref
+{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    border: 2px dashed blue;
+   background-color:black;
+   color: gold;
+  
+}
+#ref>h1
+{
+  
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+footer{
+    background-image: url("white-panel.jpeg");
+    margin-top: 5px;
+}
